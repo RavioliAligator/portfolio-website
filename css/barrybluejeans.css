@@ -4,9 +4,6 @@
 #gallery-body{
     background-color: #3F3C3B;
 }
-#display{
-    font-family:
-}
 
 @font-face {
     font-family: 'de_valenciaregular';
@@ -14,9 +11,24 @@
          url('de_valencia_beta-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'italianaregular';
+    src: url('italiana-regular-webfont.woff2') format('woff2'),
+         url('italiana-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 #display{
-    font-family: 'de_valenciaregular'
+    font-family: 'de_valenciaregular';
+    font-size: 21pt;
+}
+#display{
+    font-family: 'de_valenciaregular';
+    font-size: 48;
+}
+p{
+    font-family: 'italianaregular';
+    font-size: 10pt;
 }
