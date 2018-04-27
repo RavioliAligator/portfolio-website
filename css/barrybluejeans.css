@@ -1,0 +1,22 @@
+#index-body{
+    background-color: #f8f0ec;
+}
+#gallery-body{
+    background-color: #3F3C3B;
+}
+#display{
+    font-family:
+}
+
+@font-face {
+    font-family: 'de_valenciaregular';
+    src: url('de_valencia_beta-webfont.woff2') format('woff2'),
+         url('de_valencia_beta-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#display{
+    font-family: 'de_valenciaregular'
+}
