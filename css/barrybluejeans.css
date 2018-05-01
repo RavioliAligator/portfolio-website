@@ -1,5 +1,6 @@
 #index-body{
     background-color: #f8f0ec;
+    margin: 50px;
 }
 #gallery-body{
     background-color: #3F3C3B;
@@ -20,15 +21,82 @@
     font-style: normal;
 }
 
-#display{
+.display{
     font-family: 'de_valenciaregular';
     font-size: 21pt;
+    color: #c7ffe5;
+    text-align:right;
 }
-#display{
+.displaypink{
     font-family: 'de_valenciaregular';
-    font-size: 48;
+    font-size: 21pt;
+    color: #f8f0ec;
+}
+.display2{
+    font-family: 'de_valenciaregular';
+    font-size: 48pt;
+    color: #b1c8be;
 }
 p{
     font-family: 'italianaregular';
     font-size: 10pt;
+    color: #3f3c3b;
+}
+#logo1{
+    width: 150px;
+    margin-left: 100px;
+}
+#me{
+    width: 290px;
+    margin-left: 30px;
+    margin-bottom: 30px
+}
+.gallery-link{
+    padding:15px;
+    width:280px;
+    padding-left: 94px;
+    text-align: right;
+    margin-left:30px;
+    background-color:#f7a1b1;
+}
+header {
+    z-index:10;
+    position:fixed;
+}
+#about{
+    padding:15px;
+    width:430px;
+    position: relative;
+    text-align: left;
+    margin-top:50px;
+    margin-left:380px;
+    margin-bottom:30px;
+    background-color:#b1c8be;
+}
+#expertise{
+    padding:15px;
+    width:430px;
+    position: relative;
+    text-align: left;
+    margin-left:380px;
+    background-color:#b1c8be;
+    margin-bottom:30px;
+}
+#education{
+    padding:15px;
+    width:430px;
+    position: relative;
+    text-align: left;
+    margin-left:380px;
+    background-color:#b1c8be;
+    margin-bottom:30px;
+}
+#interests{
+    padding:15px;
+    width:430px;
+    position: relative;
+    text-align: left;
+    margin-left:380px;
+    background-color:#b1c8be;
+    margin-bottom:30px;
 }
