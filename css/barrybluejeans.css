@@ -24,6 +24,7 @@
 .display{
     font-family: 'de_valenciaregular';
     font-size: 21pt;
+    line-height: 40px;
     color: #c7ffe5;
     text-align:right;
 }
@@ -35,7 +36,15 @@
 .display2{
     font-family: 'de_valenciaregular';
     font-size: 48pt;
+    text-align: right;
+    margin-right:200px;
+    margin-left: 375px;
     color: #b1c8be;
+}
+.contact-info{
+    margin-right: 200px;
+    margin-left: 375px;
+    text-align: right;
 }
 p{
     font-family: 'italianaregular';
@@ -64,7 +73,10 @@ header {
     position:fixed;
 }
 #about{
-    padding:15px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     width:430px;
     position: relative;
     text-align: left;
@@ -73,8 +85,14 @@ header {
     margin-bottom:30px;
     background-color:#b1c8be;
 }
+.bio{
+    line-height: 20px;
+}
 #expertise{
-    padding:15px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     width:430px;
     position: relative;
     text-align: left;
@@ -83,7 +101,23 @@ header {
     margin-bottom:30px;
 }
 #education{
-    padding:15px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:430px;
+    position: relative;
+    text-align: left;
+    line-height: 20px;
+    margin-left:380px;
+    background-color:#b1c8be;
+    margin-bottom:30px;
+}
+#interests{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     width:430px;
     position: relative;
     text-align: left;
@@ -91,12 +125,6 @@ header {
     background-color:#b1c8be;
     margin-bottom:30px;
 }
-#interests{
-    padding:15px;
-    width:430px;
-    position: relative;
-    text-align: left;
-    margin-left:380px;
-    background-color:#b1c8be;
-    margin-bottom:30px;
+.gal-img{
+    padding:3px;
 }
