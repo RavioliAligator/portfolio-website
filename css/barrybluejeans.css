@@ -41,6 +41,19 @@
     margin-left: 375px;
     color: #b1c8be;
 }
+.display-gal{
+    font-family: 'de_valenciaregular';
+    font-size: 21pt;
+    line-height: 40px;
+    color: #c7ffe5;
+    background-color: #b1c8be;
+    text-align:right;
+    margin-left: 3px;
+    width: 250px;
+    position:absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .contact-info{
     margin-right: 200px;
     margin-left: 375px;
@@ -127,4 +140,15 @@ header {
 }
 .gal-img{
     padding:3px;
+    width: 30%;
+}
+#gallery-images{
+    align-content:middle;
+}
+.gal-text{
+    background-color: #b1c8be;
+    padding: 5px;
+    position: relative;
+    margin-left: 260px;
+    margin-right: 100px;
 }
