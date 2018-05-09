@@ -154,3 +154,10 @@ header {
     margin-left: 320px;
     width: 430px;
 }
+.star{
+    padding-left:30px;
+}
+.star-transparent{
+    padding-left:30px;
+    opacity: 20%;
+}
