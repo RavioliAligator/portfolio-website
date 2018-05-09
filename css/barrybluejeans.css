@@ -53,6 +53,7 @@
     position:absolute;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-right: 5px;
 }
 .contact-info{
     margin-right: 200px;
@@ -140,15 +141,16 @@ header {
 }
 .gal-img{
     padding:3px;
-    width: 30%;
+    width: 32%;
 }
 #gallery-images{
-    align-content:middle;
+    min-width: 660px;
+    max-width: 1200px;
 }
 .gal-text{
     background-color: #b1c8be;
-    padding: 5px;
+    padding: 10px;
     position: relative;
-    margin-left: 260px;
-    margin-right: 100px;
+    margin-left: 320px;
+    width: 430px;
 }
