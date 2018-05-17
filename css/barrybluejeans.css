@@ -31,9 +31,17 @@
 .displaypink{
     font-family: 'de_valenciaregular';
     font-size: 21pt;
+    text-align:right;
     color: #f8f0ec;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width:280px;
+    margin-left:30px;
+    background-color:#f7a1b1;
 }
-.display2{
+.displaytwo{
     font-family: 'de_valenciaregular';
     font-size: 48pt;
     text-align: right;
@@ -55,6 +63,16 @@
     padding-bottom: 5px;
     padding-right: 5px;
 }
+#space {
+    letter-spacing: 9px;
+    transition-property: letter-spacing;
+    transition-duration: 1s;
+}
+#space:hover {
+    letter-spacing: 15px;
+    transition-property: letter-spacing;
+    transition-duration: 1s;
+}
 .contact-info{
     margin-right: 200px;
     margin-left: 375px;
@@ -73,14 +91,6 @@ p{
     width: 290px;
     margin-left: 30px;
     margin-bottom: 30px
-}
-.gallery-link{
-    padding:15px;
-    width:280px;
-    padding-left: 94px;
-    text-align: right;
-    margin-left:30px;
-    background-color:#f7a1b1;
 }
 header {
     z-index:10;
