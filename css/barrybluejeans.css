@@ -153,16 +153,20 @@ header {
     padding:3px;
     width: 32%;
 }
+.gal-imgone{
+background-image: url(gallery-images/Ants.jpg);
+    width: 32%;
+}
 #gallery-images{
     min-width: 660px;
     max-width: 1200px;
-    width: auto;
-    min-height: inherit;
-    max-height: inherit;
+    min-height: 660px;
+    min-height: 1200px;
 }
 .gal-img{
     object-fit: cover;
     background-position:center;
+    height: 100%;
 }
 .gal-text{
     background-color: #b1c8be;
