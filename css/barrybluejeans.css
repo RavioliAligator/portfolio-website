@@ -156,6 +156,13 @@ header {
 #gallery-images{
     min-width: 660px;
     max-width: 1200px;
+    width: auto;
+    min-height: inherit;
+    max-height: inherit;
+}
+.gal-img{
+    object-fit: cover;
+    background-position:center;
 }
 .gal-text{
     background-color: #b1c8be;
@@ -171,3 +178,4 @@ header {
     padding-left:30px;
     opacity: 20%;
 }
+
