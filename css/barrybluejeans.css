@@ -153,8 +153,42 @@ header {
     padding:3px;
     width: 32%;
 }
-.gal-imgone{
-background-image: url(gallery-images/Ants.jpg);
+#gal-imgone {
+background-image: url('gallery-images/Ants.jpg');
+    width: 32%;
+}
+#gal-imgtwo {
+background-image: url("gallery-images/At_Last_Solitude.jpg");
+    width: 32%;
+    height: 32%;
+    background-color: white;
+}
+#gal-imgthree{
+background-image: url('gallery-images/Falling_Centaur.jpg');
+    width: 32%;
+}
+#gal-imgfour{
+background-image: url('gallery-images/Family_Portrait.jpg');
+    width: 32%;
+}
+#gal-imgfive{
+background-image: url(gallery-images/Goddesses.jpg);
+    width: 32%;
+}
+#gal-imgsix{
+background-image: url(gallery-images/It's_Unclear_Who's_Watching_Who.jpg);
+    width: 32%;
+}
+#gal-imgseven{
+background-image: url('gallery-images/Moving.jpg');
+    width: 32%;
+}
+#gal-imgeight{
+background-image: url(gallery-images/Quick_It's_Escaping.jpg);
+    width: 32%;
+}
+#gal-imgnine{
+background-image: url(gallery-images/The_Tailor.jpg);
     width: 32%;
 }
 #gallery-images{
